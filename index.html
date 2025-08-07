@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>音声再生ボタン</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="button-container">
+    <button class="sound-button" onclick="playSound('audio/songA.mp3')">
+      <img src="images/buttonA.png" alt="曲A">
+    </button>
+
+    <button class="sound-button" onclick="playSound('audio/songB.mp3')">
+      <img src="images/buttonB.png" alt="曲B">
+    </button>
+
+    <!-- 必要に応じてボタンを追加 -->
+  </div>
+
+  <audio id="audio-player"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
